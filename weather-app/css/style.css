@@ -1,0 +1,44 @@
+body {
+  background: white;
+}
+
+#header {
+  background: gray;
+  color: white;
+  padding: 0 16px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  box-shadow: 0px 2px 5px #555;
+}
+#header .left, #header .navbar, #header .right {
+  display: inline-block;
+}
+#header .left, #header .right {
+  width: 20%;
+}
+#header .navbar {
+  width: 600px;
+}
+#header .left {
+  float: left;
+}
+#header .right {
+  text-align: right;
+  float: right;
+  line-height: 80px;
+  vertical-align: bottom;
+}
+
+#container {
+  background: lightblue;
+  display: block;
+  width: 600px;
+  margin: 48px auto;
+  min-height: 300px;
+  padding: 24px;
+  border-radius: 4px;
+}
+#container .center-text {
+  text-align: center;
+}
